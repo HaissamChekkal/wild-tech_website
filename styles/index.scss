@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+    --bg: #1C1F26;
+    --primary1: #FFCFC2;
+    --primary2: #81CFFF;
+    --primary3: #EDBAD6;    
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+
+*{
+    box-sizing: border-box;
+  }
+
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
+  h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.5%; /* 5.04rem */
+  }
+
+  #gradient-canvas {
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    height:100%;
+  --gradient-color-1: #404771; 
+  --gradient-color-2: #56B8A1; 
+  --gradient-color-3: #5062BE;  
+  --gradient-color-4: #837170;
+  }

@@ -1,0 +1,29 @@
+@import "../variables.scss";
+
+.container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.logo{
+    height: 17rem;
+    margin-top: 106px;
+}
+
+.title{
+    width: 412px;
+    padding: 69px 0px 60px;
+    margin: auto
+}
+
+.description{
+    width: 804px;
+    padding-bottom: 150px;
+    margin: auto;
+}
