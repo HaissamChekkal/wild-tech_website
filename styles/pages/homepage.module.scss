@@ -7,6 +7,7 @@
     justify-content: center;
     flex-direction: column;
     width: 95vw;
+    height: 90vh;
     margin: auto;
     margin-top: 40px;
 }
@@ -17,13 +18,20 @@
 }
 
 .title{
-    width: 412px;
+    width: 90%;
     padding: 69px 0px 60px;
     margin: auto
 }
 
 .description{
-    width: 804px;
+    width: 90%;
     padding-bottom: 150px;
     margin: auto;
+}
+
+@include breakpoint(mobile) {
+    .container{
+        height: auto;
+        margin-bottom: 40px;
+    }
 }
